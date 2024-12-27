@@ -1,0 +1,62 @@
+.company-showcase-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px; /* Added more padding for a spacious feel */
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #e3e3e3,
+    #d3cce3
+  ); /* Soft and elegant gradient */
+  border-radius: 16px; /* More rounded corners for a luxurious feel */
+  color: #2c3e50; /* Dark gray-blue for a sophisticated look */
+  font-family: "Georgia", serif; /* Elegant font */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Elevated shadow for a polished appearance */
+}
+
+.company-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Increased gap for a more airy layout */
+  justify-content: center;
+}
+
+.company-item {
+  width: 220px; /* Slightly larger items for better visibility */
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added smooth transition for hover effects */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f9fa
+  ); /* Subtle gradient for a refined background */
+  border: 1px solid #ccc; /* Softer border */
+  border-radius: 12px; /* More rounded corners */
+  padding: 15px; /* Added padding for balance */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.company-image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain; /* Ensure images fit nicely */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer and neutral shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover effects */
+  background-color: #fafafa; /* Neutral light background */
+}
+
+.company-item:hover .company-image {
+  transform: scale(1.05); /* Slightly enlarge for subtle elegance */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.company-name {
+  text-transform: capitalize;
+  font-size: 1.2em; /* Slightly larger font */
+  font-weight: bold;
+  color: #4a4a4a; /* Neutral dark gray for a classy look */
+  margin-top: 15px;
+  font-family: "Georgia", serif; /* Matches the overall elegant theme */
+}

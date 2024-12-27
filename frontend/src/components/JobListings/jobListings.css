@@ -1,0 +1,100 @@
+.job-listing-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px; /* Increased padding for a spacious look */
+  background: linear-gradient(
+    135deg,
+    #fdfbfb,
+    #ebedee
+  ); /* Subtle neutral gradient for sophistication */
+  border-radius: 16px; /* More rounded corners for elegance */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08); /* Enhanced shadow for depth */
+  color: #2c3e50; /* Deep gray for classy text */
+  font-family: "Georgia", serif; /* Elegant serif font */
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px; /* Larger and more prominent */
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #2c3e50; /* Sophisticated dark gray */
+}
+
+.job-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-list-item {
+  padding: 20px; /* Increased padding for better structure */
+  border-bottom: 1px solid #ccc; /* Soft gray borders */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background: #ffffff; /* Clean white background */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 15px; /* Space between items */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+.job-list-item:hover {
+  background-color: #f5f7fa; /* Light hover effect */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.job-title {
+  font-size: 1.6em; /* Larger for emphasis */
+  font-weight: bold;
+  margin: 0;
+  color: #2a3d66; /* Deep blue-gray for a premium feel */
+}
+
+.job-description,
+.job-requirements,
+.job-salary,
+.job-lastUpdated {
+  margin: 8px 0; /* Added spacing for readability */
+  color: #646464; /* Neutral gray for secondary text */
+  line-height: 1.5; /* Improved line spacing */
+}
+
+.job-requirements strong,
+.job-salary strong,
+.job-lastUpdated strong {
+  color: #2a3d66; /* Deep blue-gray for emphasis */
+}
+
+.apply-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px; /* Larger and more balanced */
+  background: linear-gradient(
+    to right,
+    #8e44ad,
+    #3498db
+  ); /* Rich purple-to-blue gradient for elegance */
+  color: white;
+  text-decoration: none;
+  border-radius: 10px; /* Rounded for a modern touch */
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.apply-link:hover {
+  background: linear-gradient(
+    to right,
+    #722f95,
+    #1d66e7
+  ); /* Darker hover gradient */
+  transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.error-message {
+  color: #e74c3c; /* Bright red for visibility */
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 1.1em; /* Slightly larger for impact */
+}

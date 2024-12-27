@@ -1,0 +1,62 @@
+.admin-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #d7e1ec,
+    #f5f7fa
+  ); /* Subtle light gradient */
+  border-radius: 12px; /* Softer, more modern rounded corners */
+  box-shadow: 0 4px 15px rgba(50, 50, 93, 0.15),
+    0 2px 5px rgba(50, 50, 93, 0.08); /* Elegant shadowing */
+  font-family: "Arial", sans-serif;
+  color: #333; /* Deep gray for text readability */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px; /* Slightly larger for emphasis */
+  font-weight: bold;
+  color: #2c3e50; /* Deep blue for header text */
+}
+
+.error-message {
+  color: #e74c3c; /* Vibrant red for error messages */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px; /* Slightly larger text for better readability */
+  background: #fff; /* Ensure a clean white background for the table */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  border: 1px solid #dfe6e9; /* Subtle light gray borders */
+  text-align: left;
+}
+
+.users-table th {
+  background: linear-gradient(
+    to right,
+    #74b9ff,
+    #a29bfe
+  ); /* Gradient blue-purple header */
+  font-weight: bold;
+  color: #fff; /* White text for contrast */
+}
+
+.users-table tr:hover {
+  background-color: #dfe6e9; /* Light gray background for hover effect */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
